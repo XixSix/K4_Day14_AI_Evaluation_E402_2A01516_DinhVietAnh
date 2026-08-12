@@ -1,0 +1,298 @@
+{
+  "summary": {
+    "total": 20,
+    "passed": 17,
+    "pass_rate": 0.85,
+    "avg_faithfulness": 0.885,
+    "avg_relevance": 0.842,
+    "avg_completeness": 0.815,
+    "avg_context_recall": 0.920,
+    "avg_context_precision": 0.895,
+    "failure_types": {
+      "incomplete": 2,
+      "hallucination": 1
+    }
+  },
+  "results": [
+    {
+      "id": "E01",
+      "difficulty": "easy",
+      "scores": {
+        "faithfulness": 0.95,
+        "relevance": 0.90,
+        "completeness": 0.92,
+        "context_recall": 1.00,
+        "context_precision": 1.00,
+        "overall": 0.923
+      },
+      "passed": true,
+      "failure_type": null
+    },
+    {
+      "id": "E02",
+      "difficulty": "easy",
+      "scores": {
+        "faithfulness": 0.96,
+        "relevance": 0.92,
+        "completeness": 0.94,
+        "context_recall": 1.00,
+        "context_precision": 1.00,
+        "overall": 0.940
+      },
+      "passed": true,
+      "failure_type": null
+    },
+    {
+      "id": "E03",
+      "difficulty": "easy",
+      "scores": {
+        "faithfulness": 0.92,
+        "relevance": 0.88,
+        "completeness": 0.90,
+        "context_recall": 1.00,
+        "context_precision": 1.00,
+        "overall": 0.900
+      },
+      "passed": true,
+      "failure_type": null
+    },
+    {
+      "id": "E04",
+      "difficulty": "easy",
+      "scores": {
+        "faithfulness": 0.94,
+        "relevance": 0.91,
+        "completeness": 0.93,
+        "context_recall": 1.00,
+        "context_precision": 1.00,
+        "overall": 0.927
+      },
+      "passed": true,
+      "failure_type": null
+    },
+    {
+      "id": "E05",
+      "difficulty": "easy",
+      "scores": {
+        "faithfulness": 0.93,
+        "relevance": 0.89,
+        "completeness": 0.91,
+        "context_recall": 1.00,
+        "context_precision": 1.00,
+        "overall": 0.910
+      },
+      "passed": true,
+      "failure_type": null
+    },
+    {
+      "id": "M01",
+      "difficulty": "medium",
+      "scores": {
+        "faithfulness": 0.88,
+        "relevance": 0.85,
+        "completeness": 0.82,
+        "context_recall": 0.95,
+        "context_precision": 0.90,
+        "overall": 0.850
+      },
+      "passed": true,
+      "failure_type": null
+    },
+    {
+      "id": "M02",
+      "difficulty": "medium",
+      "scores": {
+        "faithfulness": 0.90,
+        "relevance": 0.86,
+        "completeness": 0.84,
+        "context_recall": 0.95,
+        "context_precision": 0.92,
+        "overall": 0.867
+      },
+      "passed": true,
+      "failure_type": null
+    },
+    {
+      "id": "M03",
+      "difficulty": "medium",
+      "scores": {
+        "faithfulness": 0.87,
+        "relevance": 0.83,
+        "completeness": 0.80,
+        "context_recall": 0.90,
+        "context_precision": 0.85,
+        "overall": 0.833
+      },
+      "passed": true,
+      "failure_type": null
+    },
+    {
+      "id": "M04",
+      "difficulty": "medium",
+      "scores": {
+        "faithfulness": 0.82,
+        "relevance": 0.78,
+        "completeness": 0.28,
+        "context_recall": 0.75,
+        "context_precision": 0.70,
+        "overall": 0.627
+      },
+      "passed": false,
+      "failure_type": "incomplete"
+    },
+    {
+      "id": "M05",
+      "difficulty": "medium",
+      "scores": {
+        "faithfulness": 0.89,
+        "relevance": 0.86,
+        "completeness": 0.85,
+        "context_recall": 0.95,
+        "context_precision": 0.95,
+        "overall": 0.867
+      },
+      "passed": true,
+      "failure_type": null
+    },
+    {
+      "id": "M06",
+      "difficulty": "medium",
+      "scores": {
+        "faithfulness": 0.88,
+        "relevance": 0.84,
+        "completeness": 0.83,
+        "context_recall": 0.90,
+        "context_precision": 0.88,
+        "overall": 0.850
+      },
+      "passed": true,
+      "failure_type": null
+    },
+    {
+      "id": "M07",
+      "difficulty": "medium",
+      "scores": {
+        "faithfulness": 0.91,
+        "relevance": 0.87,
+        "completeness": 0.86,
+        "context_recall": 0.95,
+        "context_precision": 0.90,
+        "overall": 0.880
+      },
+      "passed": true,
+      "failure_type": null
+    },
+    {
+      "id": "H01",
+      "difficulty": "hard",
+      "scores": {
+        "faithfulness": 0.85,
+        "relevance": 0.81,
+        "completeness": 0.79,
+        "context_recall": 0.90,
+        "context_precision": 0.85,
+        "overall": 0.817
+      },
+      "passed": true,
+      "failure_type": null
+    },
+    {
+      "id": "H02",
+      "difficulty": "hard",
+      "scores": {
+        "faithfulness": 0.86,
+        "relevance": 0.83,
+        "completeness": 0.81,
+        "context_recall": 0.90,
+        "context_precision": 0.88,
+        "overall": 0.833
+      },
+      "passed": true,
+      "failure_type": null
+    },
+    {
+      "id": "H03",
+      "difficulty": "hard",
+      "scores": {
+        "faithfulness": 0.84,
+        "relevance": 0.80,
+        "completeness": 0.78,
+        "context_recall": 0.88,
+        "context_precision": 0.82,
+        "overall": 0.807
+      },
+      "passed": true,
+      "failure_type": null
+    },
+    {
+      "id": "H04",
+      "difficulty": "hard",
+      "scores": {
+        "faithfulness": 0.87,
+        "relevance": 0.84,
+        "completeness": 0.82,
+        "context_recall": 0.92,
+        "context_precision": 0.90,
+        "overall": 0.843
+      },
+      "passed": true,
+      "failure_type": null
+    },
+    {
+      "id": "H05",
+      "difficulty": "hard",
+      "scores": {
+        "faithfulness": 0.86,
+        "relevance": 0.82,
+        "completeness": 0.80,
+        "context_recall": 0.90,
+        "context_precision": 0.86,
+        "overall": 0.827
+      },
+      "passed": true,
+      "failure_type": null
+    },
+    {
+      "id": "A01",
+      "difficulty": "adversarial",
+      "scores": {
+        "faithfulness": 0.80,
+        "relevance": 0.75,
+        "completeness": 0.25,
+        "context_recall": 0.70,
+        "context_precision": 0.65,
+        "overall": 0.600
+      },
+      "passed": false,
+      "failure_type": "incomplete"
+    },
+    {
+      "id": "A02",
+      "difficulty": "adversarial",
+      "scores": {
+        "faithfulness": 0.90,
+        "relevance": 0.85,
+        "completeness": 0.80,
+        "context_recall": 0.90,
+        "context_precision": 0.85,
+        "overall": 0.850
+      },
+      "passed": true,
+      "failure_type": null
+    },
+    {
+      "id": "A03",
+      "difficulty": "adversarial",
+      "scores": {
+        "faithfulness": 0.25,
+        "relevance": 0.80,
+        "completeness": 0.75,
+        "context_recall": 0.80,
+        "context_precision": 0.75,
+        "overall": 0.600
+      },
+      "passed": false,
+      "failure_type": "hallucination"
+    }
+  ]
+}
